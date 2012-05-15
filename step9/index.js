@@ -28,6 +28,6 @@ showHand = function(d, x){
 };
 
 showJudge = function(d, x){
-	var judges = ['ひきわけ!', 'あなたのかち!', 'コンピュータのかち!'];
+	var judges = ['あいこ!', 'あなたのかち!', 'コンピュータのかち!'];
 	d.innerHTML = judges[x];
 };

@@ -29,7 +29,7 @@ window.onkeydown = function(e){
 	
 	// どっちが勝った?
 	if (a == b) {
-		d3.innerHTML = 'ひきわけ!';
+		d3.innerHTML = 'あいこ!';
 	} else if ((a == 1 && b == 2) || (a == 2 && b == 3) || (a == 3 && b == 1)) {
 		d3.innerHTML = 'あなたのかち!';
 	} else {
