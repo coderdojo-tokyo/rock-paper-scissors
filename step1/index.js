@@ -3,6 +3,7 @@ window.onkeydown = function(e){
 	
 	// 数字の入れもの = 変数 (へんすう)
 	var a = e.keyCode;
+	console.log(a);
 	a = a - 48;
 	
 	// もし〜なら
